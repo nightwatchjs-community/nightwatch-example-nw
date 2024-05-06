@@ -1,0 +1,18 @@
+{
+  "name": "nightwatch-example-nw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nw ./src",
+    "prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --glob false --outDir ./dist ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nightwatch": "^3.6.1",
+    "nw": "^0.87.0-1",
+    "nw-builder": "^4.7.1"
+  }
+}
